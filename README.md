@@ -32,8 +32,8 @@ python gen_client_requests.py --model facebook/opt-13b --request-rate 3 --cv 1 -
 
 ## Exemplar Serving Result Comparsion
 vLLM:<br>
-<img width="357" alt="vllm_result" src="https://github.com/user-attachments/assets/81112082-8820-4baf-80b4-e2d90ecff7c3"> <br>
+<img width="540" alt="截屏2025-03-31 13 27 24" src="https://github.com/user-attachments/assets/a577010a-4c6f-42a7-9932-7cd146273aad" /> <br>
 Apt-Serve:<br>
-<img width="357" alt="aptserve_result" src="https://github.com/user-attachments/assets/d628c836-a866-41d8-8cb3-79d9a6125300">
+<img width="545" alt="截屏2025-03-31 13 27 34" src="https://github.com/user-attachments/assets/e378f6f2-73eb-4782-a863-b6febfc5cf6d" />
 
 
