@@ -1,5 +1,6 @@
-# Serving_Framework
-The proposed serving framework is built on top of vLLM (release version: 0.5.0 post1). <br>
+# Apt-Serve
+Code repository for the SIGMOD 25 paper: "Apt-Serve: Adaptive Request Scheduling on Hybrid Cache for Scalable LLM Inference Serving".
+Apt-Serve is a serving framework prototype implemented on top of vLLM (release version: 0.5.0 post1). <br>
 All the adds-on by the framework are located in the folder `additional_designs`.
 
 ## Getting Started
@@ -12,7 +13,7 @@ bash additional_designs/insert_designs.sh
 ```
 python additional_designs/mixed_cache_kernels/mixed_cache_setup.py build_ext --inplace
 ```
-With all these steps completed, the necessary implementation for the new designs has been integrated into vLLM and is ready for use.
+With all these steps completed, the necessary implementation for the new designs has been integrated into vLLM and is ready for usage.
 
 ## Sample Serving Traces
 Following `readme.md` from the folder `sample_requests_from_datasets` to sample requests to create a serving trace.
@@ -30,9 +31,9 @@ python gen_client_requests.py --model facebook/opt-13b --request-rate 3 --cv 1 -
 ```
 
 ## Exemplar Serving Result Comparsion
-Original vLLM:<br>
+vLLM:<br>
 <img width="357" alt="vllm_result" src="https://github.com/user-attachments/assets/81112082-8820-4baf-80b4-e2d90ecff7c3"> <br>
-Our new framework:<br>
+Apt-Serve:<br>
 <img width="357" alt="aptserve_result" src="https://github.com/user-attachments/assets/d628c836-a866-41d8-8cb3-79d9a6125300">
 
 
