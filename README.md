@@ -1,5 +1,5 @@
 # Apt-Serve
-Code repository for the SIGMOD 25 paper: "Apt-Serve: Adaptive Request Scheduling on Hybrid Cache for Scalable LLM Inference Serving".
+Code repository for the SIGMOD 25 paper: "Apt-Serve: Adaptive Request Scheduling on Hybrid Cache for Scalable LLM Inference Serving". <br>
 Apt-Serve is a serving framework prototype implemented on top of vLLM (release version: 0.5.0 post1). <br>
 All the adds-on by the framework are located in the folder `additional_designs`.
 
