@@ -18,7 +18,7 @@ cp "./aptserve_sequence.py" "$vllm_dir/sequence.py"
 
 
 #Replace attention part
-cp "./attention/aptserve_layer.py" "$vllm_dir/attention/sequence.py"
+cp "./attention/aptserve_layer.py" "$vllm_dir/attention/layer.py"
 cp "./attention/backends/aptserve_abstract.py" "$vllm_dir/attention/backends/abstract.py"
 cp "./attention/backends/aptserve_flash_attn.py" "$vllm_dir/attention/backends/flash_attn.py"
 
